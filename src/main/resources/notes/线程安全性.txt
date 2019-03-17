@@ -1,0 +1,25 @@
+线程安全性的定义：
+    当多个线程访问某个类时，不管运行是环境采用何种调度方式或则这些进程如何交替执行
+    ，并且在主调代码中不需要任何额外的同步或者协同，这个类都能表现出正确的行为，那
+    么就称这个类时线程安全的
+
+线程安全性的体现：
+    原子性：提供了互斥访问，同一时刻只能有一个线程来对它进行操作
+    可见性：一个线程对主内存的修改可以及时的被其他线程观察到
+    有序性：一个线程观察其他线程中的指令执行顺序，由于指令重排的存在，
+            该观察结果一般杂乱无序
+
+原子性：---Atomic包
+    -AtomicXXX:CAS、Unsafe.compareAndSwapInt
+    -AtomicLong、LongAdder
+    -AtomicReference、AtomicReferenceFieldUpdater
+    -AtomicStampReference：CAS的ABA问题（ABA问题是指当线程操作一个变量时，另一个线程先将此变量从A改为B再改为A）
+
+
+
+
+
+
+
+
+
