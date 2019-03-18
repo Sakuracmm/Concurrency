@@ -15,6 +15,10 @@
     -AtomicReference、AtomicReferenceFieldUpdater
     -AtomicStampReference：CAS的ABA问题（ABA问题是指当线程操作一个变量时，另一个线程先将此变量从A改为B再改为A）
 
+----总结
+    -原子性：Atomic包、CAS算法、synchronized、Lock
+    -可见性：synchronized、volatile
+    -有序性：happens-before
 
 
 
