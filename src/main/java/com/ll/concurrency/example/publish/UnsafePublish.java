@@ -1,4 +1,4 @@
-package com.ll.concurrency.publish;
+package com.ll.concurrency.example.publish;
 
 import com.ll.concurrency.annotations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;

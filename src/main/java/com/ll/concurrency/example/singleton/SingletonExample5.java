@@ -1,4 +1,4 @@
-package com.ll.concurrency.singleton;
+package com.ll.concurrency.example.singleton;
 
 import com.ll.concurrency.annotations.ThreadSafe;
 

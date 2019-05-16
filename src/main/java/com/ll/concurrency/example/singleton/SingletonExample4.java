@@ -1,7 +1,6 @@
-package com.ll.concurrency.singleton;
+package com.ll.concurrency.example.singleton;
 
 import com.ll.concurrency.annotations.NotThreadSafe;
-import com.ll.concurrency.annotations.ThreadSafe;
 
 /**
   * 懒汉模式        --》双重同步锁单例模式
