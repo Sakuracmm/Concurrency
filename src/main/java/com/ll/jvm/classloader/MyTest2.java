@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 //常量在编译阶段会存入到调用这个常量的方法所在的类的常量池中，
 //本质上，调用类并没有直接引用到定义常量的类，因此并不会触发

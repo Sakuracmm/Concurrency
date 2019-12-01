@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 /**
  * 对于静态字段来说，只有定义了该字段的了才会被初始化

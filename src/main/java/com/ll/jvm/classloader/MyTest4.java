@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 /**
  * 对于数组实例来说，其类型是由jvm在运行期间动态生成的，不表示为[Lcom.ll.concurrency.jvm.classloader.MyParent4;

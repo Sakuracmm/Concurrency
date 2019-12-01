@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 //通过子类的类名调用父类的静态变量或者静态方法表示的是对父类的主动使用
 class Parent3 {

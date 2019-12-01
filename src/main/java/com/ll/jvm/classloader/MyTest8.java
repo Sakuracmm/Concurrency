@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 class  FinalTest{
 

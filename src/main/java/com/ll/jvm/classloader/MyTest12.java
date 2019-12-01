@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 class CL {
     static {
@@ -9,16 +9,16 @@ class CL {
 public class MyTest12 {
     public static void main(String[] args) throws ClassNotFoundException {
         /**
-         * class com.ll.concurrency.jvm.classloader.CL
+         * class com.ll.jvm.classloader.CL
          * ----------
          * Class CL
-         * class com.ll.concurrency.jvm.classloader.CL
+         * class com.ll.jvm.classloader.CL
          */
         ClassLoader loader = ClassLoader.getSystemClassLoader();
-        Class<?> clazz = loader.loadClass("com.ll.concurrency.jvm.classloader.CL");
+        Class<?> clazz = loader.loadClass("com.ll.jvm.classloader.CL");
         System.out.println(clazz);
         System.out.println("----------");
-        clazz = Class.forName("com.ll.concurrency.jvm.classloader.CL");
+        clazz = Class.forName("com.ll.jvm.classloader.CL");
         System.out.println(clazz);
     }
 }

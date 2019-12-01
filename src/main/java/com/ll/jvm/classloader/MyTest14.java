@@ -1,4 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
+package com.ll.jvm.classloader;
 
 import java.io.IOException;
 import java.net.URL;
@@ -12,7 +12,7 @@ public class MyTest14 {
 
         System.out.println(classLoader);    //jdk.internal.loader.ClassLoaders$AppClassLoader@3fee733d
 
-        String resourceName = "com/ll/concurrency/jvm/classloader/MyTest13.class";
+        String resourceName = "com/ll/jvm/classloader/MyTest13.class";
 
         Enumeration<URL> urls = classLoader.getResources(resourceName);
 

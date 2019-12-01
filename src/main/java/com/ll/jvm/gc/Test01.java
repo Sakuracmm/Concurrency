@@ -1,6 +1,4 @@
-package com.ll.concurrency.jvm.gc;
-
-import com.sun.tools.javac.Main;
+package com.ll.jvm.gc;
 
 /**
  * 垃圾回收---判断是否为垃圾需要回收----引用计数法

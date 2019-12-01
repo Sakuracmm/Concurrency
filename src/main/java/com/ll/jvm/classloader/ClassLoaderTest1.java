@@ -1,5 +1,4 @@
-package com.ll.concurrency.jvm.classloader;
-import java.lang.Class;
+package com.ll.jvm.classloader;
 
 class Sington1{
 
