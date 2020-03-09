@@ -31,7 +31,4 @@ public class SingletonExample2 {
     public static void main(String[] args) {
         SingletonExample2.getInstance().someService();
     }
-
-
-
 }
