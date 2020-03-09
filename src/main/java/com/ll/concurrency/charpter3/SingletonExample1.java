@@ -31,7 +31,7 @@ public class SingletonExample1 {
         }
         return instance;
     }
-
+    
     public void someService(){
         //do something whatever you like
     }
