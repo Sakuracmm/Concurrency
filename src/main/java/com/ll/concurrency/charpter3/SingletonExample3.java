@@ -20,7 +20,8 @@ public class SingletonExample3 {
         };
         t.start();
     }
-
+    
+    
     public static enum Singleton{
         INSTANCE;
         //私有构造器
