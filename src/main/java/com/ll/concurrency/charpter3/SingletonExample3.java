@@ -33,5 +33,4 @@ public class SingletonExample3 {
             //do something you like
         }
     }
-
 }
